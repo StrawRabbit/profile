@@ -95,6 +95,19 @@ li {
 
 @media (width <= 1053px) {
   .container {
-    min-width: 400px;
+    width: 400px;
+  }
+}
+
+@media (width <= 440px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+@media (width <= 375px) {
+  .container {
+    width: 250px;
   }
 }
